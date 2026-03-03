@@ -1,21 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>To do list</title>
+        <meta charset="UTF-8">
+        <title>My to do list</title>
+        <style>
+            .my-list {
+                margin: 0 auto;
+                padding: 8px 24px;
+                width: 500px;
+                font-size: 30px;
+                border: 1px solid #f7f381;
+                background-color: #f7f381;
+                box-shadow: 0 0 10px 2px #333333;
+            }
+            .my-list ol {
+                margin: 12px ;
+            }
+            .my-list p {
+                text-align: center;
+            }
+            h1 {
+                color: #028100
+            }
+            p {
+                color:#579081 
+            }
+        </style>
     </head>
     <body>
-        <h3>To do list</h3>
-
-        <p>Today's to do list</p>
-
-        <p>Monday, September 19th</p>
-        <p>
-            1. Write a blog post<br>
-            2. Go to the bank<br>
-            3. Study for exams<br>
-            4. Renew web hosting account and domain name<br>
-            5. Learn something new<br>
-            6. Update project log<br>
-        </p>
+        <div class="my-list">
+             <h1>Today's to do list</h1>
+             <p>Monday, September 19th</p>
+             <ol>
+                <li>Write a blog post</li>
+                <li>Go to the bank</li>
+                <li>Study for exams</li>
+                <li>Renew web hosting account and domain name</li>
+                <li>Learn something new</li>
+                <li>Update project log</li>
+             </ol>
+        </div>
     </body>
 </html>
