@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eee;
+}
+
+.container {
+  width: 600px;
+  margin: 30px auto;
+  background: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+h2 {
+  color: darkred;
+}
+
+.form-group {
+  margin: 15px 0;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  color: #3366cc;
+}
+
+input, select {
+  padding: 5px;
+  width: 200px;
+}
+
+.name-group {
+  display: flex;
+  gap: 20px;
+}
+
+.name-group div {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-group {
+  display: flex;
+  gap: 50px;
+  margin-left: 150px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 30px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkred;
+}
+
+hr {
+  margin: 20px 0;
+}
